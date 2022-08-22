@@ -1,0 +1,22 @@
+vet clinic site
+
+GLOSSARY:
+activity - smth, that was made in clinic (vaccination, operation, chipping, checkup)
+
+______________________________________________________________________________________
+
+ROLES:
+unlogged user
+logged user (client)
+nurse
+doctor
+chief doctor
+admin
+
+_________________________________________________________________________________________
+
+
+unlogged user can see only basic info about clinic (contacts, price-list, about)
+
+customer: log in, i have personal cabinet, where i can modify my personal info (name, surname, DOB, age, pets), watch my pets' activities (for every one of them and for all)
+pet have personal info (name, age, type, breed), medical info (vax status, chip status, chip ID) and activity story
