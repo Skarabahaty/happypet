@@ -19,7 +19,7 @@ customer: previous + personal cabinet, where i can modify my personal info (name
 
 pet: personal info (name, age, type, breed), medical info (vax status, chip status, chip ID) and activity story
 
-doctor: previous + special section MEDICAL ACTIVITY : pet + owner + needed med.intervention + time on performance + needed resources
+doctor: previous + special section MEDICAL CABINET : pet + owner + needed med.intervention + time on performance + needed resources
 
 chief doctor: previous + monitoring of all employees medical activity + employees management (hire , fire, salary)
 
