@@ -24,3 +24,7 @@ doctor: previous + special section MEDICAL CABINET : pet + owner + needed med.in
 chief doctor: previous + monitoring of all employees medical activity + employees management (hire , fire, salary)
 
 admin: full access
+
+______________________________________________________________________________________________
+
+planning to rework roles idea and to assign roles to different tables
