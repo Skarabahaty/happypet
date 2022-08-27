@@ -1,7 +1,7 @@
 INSERT INTO roles (role) 
 VALUES ('admin'), ('chief'), ('doctor'), ('client');
 
-INSERT INTO treatments (name, price) 
+INSERT INTO schema.price_list (name, price)
 VALUES 
 ('Первичный прием животного', 25.00),
 ('Повторный прием животного, консультация по анализам', 22.00),
@@ -17,3 +17,14 @@ VALUES
 ('Рентгенологическое исследование животного	', 14.50),
 ('Запись снимков на электроннный носитель (диск)', 4.50),
 ('Рентгенологическое исследование животного с контрастным веществом', 40.00)
+
+INSERT INTO schema.people (name, surname, phone_number, role)
+VALUES
+('Ivan', 'Ivanov', +375291232334, 1),
+('Chel', 'Vazhnyi', +375291234564, 2),
+('Semen', 'Ivashchenko', +375251232334, 3),
+('Igor', 'Vernadskiy', +375331278334, 3),
+('Kamrad', 'Privetstvennyi', +375256782334, 4),
+('Svin', 'Khrukavyi', +375291234515, 4),
+('Semen', 'Semenov', +375251563434, 4),
+('Egor', 'Klyatyi', +375331667734, 4);

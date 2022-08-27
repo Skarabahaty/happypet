@@ -2,9 +2,8 @@ vet clinic site
 ______________________________________________________________________________________
 
 ROLES:
-unlogged user
-logged user (client)
-pet (?)
+
+client
 doctor
 chief doctor
 admin
@@ -27,4 +26,14 @@ admin: full access
 
 ______________________________________________________________________________________________
 
-planning to rework roles idea and to assign roles to different tables
+TABLES
+
+roles - list of roles
+
+people - list of all people
+
+pets - list of all pets
+
+price_list - price list of clinic
+
+treatments_story - story of all treatments in clinic
